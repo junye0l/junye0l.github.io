@@ -232,3 +232,8 @@ ISR:
   label: 정적 생성
   permalink: /static-generation
   description: 정적 생성
+
+유사배열객체:
+  label: 유사배열객체
+  permalink: /similar-array-object
+  description: 유사배열객체
