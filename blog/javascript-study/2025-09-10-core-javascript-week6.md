@@ -1,6 +1,6 @@
 ---
 slug: core-javascript-week6
-title: "코어 자바스크립트 6주차"
+title: "call, apply, bind, 화살표 함수"
 authors: [junye0l]
 tags: [JavaScript, this, call, apply, bind, 화살표함수, 유사배열객체, 스터디]
 ---

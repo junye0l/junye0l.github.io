@@ -1,6 +1,6 @@
 ---
 slug: core-javascript-week7
-title: "코어 자바스크립트 7주차"
+title: "콜백함수"
 authors: [junye0l]
 tags: [JavaScript, 콜백함수, 비동기, Promise, async/await, 스터디]
 ---

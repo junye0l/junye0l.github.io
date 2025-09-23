@@ -1,6 +1,6 @@
 ---
 slug: core-javascript-week2
-title: "코어 자바스크립트 2주차"
+title: "실행 컨텍스트와 불변 객체"
 authors: [junye0l]
 tags: [JavaScript, 불변객체, 얕은복사, 깊은복사, 언디파인드, 널, 스터디]
 ---

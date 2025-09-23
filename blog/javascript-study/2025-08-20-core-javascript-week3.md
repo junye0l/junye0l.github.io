@@ -1,6 +1,6 @@
 ---
 slug: core-javascript-week3
-title: "코어 자바스크립트 3주차"
+title: "실행 컨텍스트"
 authors: [junye0l]
 tags:
   [JavaScript, 실행컨텍스트, 콜스택, 렉시컬환경, 호이스팅, 스코프체인, 스터디]

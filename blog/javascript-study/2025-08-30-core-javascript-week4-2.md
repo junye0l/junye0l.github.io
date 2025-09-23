@@ -1,6 +1,6 @@
 ---
 slug: core-javascript-week4-2
-title: "코어 자바스크립트 4주차-2"
+title: "스코프와 클로저"
 authors: [junye0l]
 tags: [JavaScript, 스코프, 클로저, 렉시컬스코프, 호이스팅, 모듈패턴, 스터디]
 ---

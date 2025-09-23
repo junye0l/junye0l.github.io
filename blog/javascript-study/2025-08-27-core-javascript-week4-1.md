@@ -1,6 +1,6 @@
 ---
 slug: core-javascript-week4-1
-title: "코어 자바스크립트 4주차-1"
+title: "함수 선언문과 함수 표현식"
 authors: [junye0l]
 tags: [JavaScript, 함수선언문, 함수표현식, 호이스팅, 협업, 스터디]
 ---

@@ -1,6 +1,6 @@
 ---
 slug: core-javascript-week5
-title: "코어 자바스크립트 5주차"
+title: "this"
 authors: [junye0l]
 tags: [JavaScript, this, 호출방식, call, apply, bind, 화살표함수, 스터디]
 ---
