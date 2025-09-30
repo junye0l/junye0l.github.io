@@ -37,22 +37,22 @@ title: 코어 자바스크립트 북스터디
 - this의 개념 이해
 - this의 활용 사례
 
-### [Chapter 4-2 - 스코프와 클로저](/blog/core-javascript-week4)
+### [Chapter 4-2 - 스코프와 클로저](/blog/core-javascript-week4-2)
 
 - 스코프의 개념 이해
 - 스코프의 활용 사례
 
-### [Chapter 4-1 - 함수 선언문과 함수 표현식](/blog/core-javascript-week3)
+### [Chapter 4-1 - 함수 선언문과 함수 표현식](/blog/core-javascript-week4-1)
 
 - 함수 선언문과 함수 표현식의 개념 이해
 - 함수 선언문과 함수 표현식의 활용 사례
 
-### [Chapter 3 - 실행 컨텍스트](/blog/core-javascript-week2)
+### [Chapter 3 - 실행 컨텍스트](/blog/core-javascript-week3)
 
 - 실행 컨텍스트의 개념 이해
 - 실행 컨텍스트의 활용 사례
 
-### [Chapter 2 - 실행 컨텍스트와 불변 객체](/blog/core-javascript-week1-2)
+### [Chapter 2 - 실행 컨텍스트와 불변 객체](/blog/core-javascript-week2)
 
 - 실행 컨텍스트와 불변 객체의 개념 이해
 - 실행 컨텍스트와 불변 객체의 활용 사례
