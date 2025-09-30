@@ -237,3 +237,8 @@ ISR:
   label: 유사배열객체
   permalink: /similar-array-object
   description: 유사배열객체
+
+프로토타입:
+  label: 프로토타입
+  permalink: /prototype
+  description: 프로토타입 관련 내용

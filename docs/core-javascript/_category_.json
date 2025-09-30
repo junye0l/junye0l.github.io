@@ -1,0 +1,9 @@
+{
+  "label": "코어 자바스크립트",
+  "position": 3,
+  "collapsed": false,
+  "link": {
+    "type": "doc",
+    "id": "core-javascript/index"
+  }
+}

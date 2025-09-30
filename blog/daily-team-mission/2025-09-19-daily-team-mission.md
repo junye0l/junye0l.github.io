@@ -1,5 +1,5 @@
 ---
-slug: daily-team-mission
+slug: daily-team-mission-09-19
 title: "9월 19일 팀 데일리 미션 정리"
 authors: [junye0l]
 tags: [Next.js, ISR, 동적생성, 정적생성]

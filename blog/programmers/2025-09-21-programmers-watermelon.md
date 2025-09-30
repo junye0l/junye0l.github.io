@@ -1,5 +1,5 @@
 ---
-slug: programmers-min-number
+slug: programmers-watermelon
 title: "Lv.1 - 수박수박수박수박수박수?"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 배열]
