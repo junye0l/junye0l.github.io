@@ -9,6 +9,11 @@ title: 코어 자바스크립트 북스터디
 
 ## 📚 학습 내용
 
+### [Chapter 10 - 클래스](/blog/core-javascript-week10)
+
+- 클래스의 개념 이해
+- 클래스의 활용 사례
+
 ### [Chapter 9 - 프로토타입](/blog/core-javascript-week9)
 
 - 프로토타입의 개념 이해
