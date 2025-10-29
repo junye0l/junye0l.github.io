@@ -1,0 +1,9 @@
+{
+  "label": "프로젝트 회고",
+  "position": 4,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "project-remind/index"
+  }
+}
