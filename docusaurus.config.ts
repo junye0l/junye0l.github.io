@@ -42,7 +42,7 @@ const config: Config = {
           blogDescription: '개발과 공부를 기록하는 블로그',
           postsPerPage: 5,
           blogSidebarTitle: 'Recent posts',
-          blogSidebarCount: 100,
+          blogSidebarCount: 10,
           editUrl: 'https://github.com/junye0l/my-blog/tree/main/',
           onInlineTags: 'ignore',
           onInlineAuthors: 'ignore',
