@@ -19,4 +19,14 @@ title: 리액트 공식문서 스터디
 
 - ### **JavaScript in JSX with Curly Braces**
 
+### [2주차 - 1](/blog/react-study-week2-1)
+
+- ### **Passing Props to a Component**
+- ### **Conditional Rendering**
+
+### [2주차 - 2](/blog/react-study-week2-2)
+
+- ### **Rendering Lists**
+- ### **Keeping Components Pure**
+- ### **Your UI as a Tree**
 ---
