@@ -46,7 +46,7 @@ title: 리액트 공식문서 스터디
 - ### **Updating Objects in State**
 - ### **Updating Arrays in State**
 
-### [4주차 - 2](/blog/react-study-week4-2)
+### [5주차 - 1](/blog/react-study-week5-1)
 
 - ### **Reaching to Input with State**
 - ### **Choosing the State Structure**
