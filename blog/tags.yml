@@ -242,3 +242,54 @@ ISR:
   label: 프로토타입
   permalink: /prototype
   description: 프로토타입 관련 내용
+
+# 프로젝트 리마인드 기술 태그
+tailwind:
+  label: Tailwind CSS
+  permalink: /tailwind
+  description: Tailwind CSS 관련 내용
+
+TypeScript:
+  label: TypeScript
+  permalink: /typescript
+  description: TypeScript 관련 내용
+
+Storybook:
+  label: Storybook
+  permalink: /storybook
+  description: Storybook 관련 내용
+
+Husky:
+  label: Husky
+  permalink: /husky
+  description: Husky 관련 내용
+
+lint-staged:
+  label: lint-staged
+  permalink: /lint-staged
+  description: lint-staged 관련 내용
+
+Vercel:
+  label: Vercel
+  permalink: /vercel
+  description: Vercel 관련 내용
+
+Axios:
+  label: Axios
+  permalink: /axios
+  description: Axios 관련 내용
+
+'tanstack-query':
+  label: TanStack Query
+  permalink: /tanstack-query
+  description: TanStack Query 관련 내용
+
+'lottie-web':
+  label: lottie-web
+  permalink: /lottie-web
+  description: lottie-web 관련 내용
+
+Jotai:
+  label: Jotai
+  permalink: /jotai
+  description: Jotai 관련 내용
