@@ -51,13 +51,13 @@ root.render(<Image />);
 
   > **초기 렌더 -> 업데이트된 컴포넌트 -> 업데이트된 컴포넌트가 반환한 컴포넌트 -> .. -> 최종 컴포넌트**
 
-</br>
+<br/>
 
 - 렌더링은 반드시 `pure calculation`이어야 한다.
 
   > 토마토만 들어간 샐러드를 주문했는데, 양파가 들어간 샐러드가 나오면 안된다.
 
-</br>
+<br/>
 
 - React의 `Strict Mode`는 각 컴포넌트의 함수를 일부러 두 번씩 호출해 함수의 순수성을 검증할 수 있게 해준다.
 
@@ -79,7 +79,7 @@ root.render(<Image />);
 
 - _**Browser Rendering**_ : 렌더링 완료 후 React가 DOM을 업데이트 한 뒤, 브라우저가 화면을 다시 그리는 과정
 
-</br>
+<br/>
 
 > _**Recap**_
 >
@@ -89,7 +89,7 @@ root.render(<Image />);
 >
 > 𝟥. **React는 렌더링 결과가 이전과 같으면, DOM을 건드리지 않는다.**
 
-</br>
+<br/>
 
 > State as a Snapshot
 
@@ -108,7 +108,7 @@ root.render(<Image />);
 
 - 함수를 호출한 결과로 나온 컴포넌트는 렌더 시점의 state를 바탕으로 props, event handler, local variables들도 함께 계산된다. -> 그 순간의 UI의 snapshot와 같다.
 
-</br>
+<br/>
 
 - _**React re-renders a component :**_
 
@@ -118,7 +118,7 @@ root.render(<Image />);
   >
   > 𝟥. React가 함수에서 반환된 새로운 snapshot에 맞게 화면을 업데이트 한다.
 
-</br>
+<br/>
 
 ```javascript
 import { useState } from "react";
@@ -162,11 +162,11 @@ React는 모든 state 변경 요청을 한꺼번에 처리하고 state를 1로 �
 
 </p>
 
-</br>
+<br/>
 
 > Queue a Series of State Updates
 
-</br>
+<br/>
 
 _**React batches state updates**_ :
 
@@ -178,7 +178,7 @@ state를 set하면 즉시 렌더가 일어나는 것이 아니라, 이벤트 핸
 
 </p>
 
-</br>
+<br/>
 
 _**Updating the same state multiple times before the next render**_ :
 
@@ -251,7 +251,7 @@ setNumber(42)
 
 </p>
 
-</br>
+<br/>
 
 _**Naming conventions**_ :
 
@@ -265,7 +265,7 @@ setEnabled(e => !e), setFriendCount(fc => fc + 1), etc.
 
 </p>
 
-</br>
+<br/>
 
 > _**Recap**_
 >

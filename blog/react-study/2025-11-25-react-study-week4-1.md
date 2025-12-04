@@ -37,7 +37,7 @@ console.log(obj1.name); // "B"
 
   - 원시 타입의 특징으로는 값 자체가 복사되며, 독립적이며, 불변성을 띠고있다.
 
-</br>
+<br/>
 
 ```javascript
 const [x, setX] = useState(0);
@@ -99,7 +99,7 @@ const [person, setPerson] = useState({
 
 - 위 객체 상황에서 일부 필드만 업데이트하고 나머지는 유지하고 싶을때 사용하는 방법이 있다.
 
-</br>
+<br/>
 
 ```javascript
 // 번거로운 방법
@@ -135,7 +135,7 @@ function handleChange(e) {
 <input name="email" onChange={handleChange} />
 ```
 
-</br>
+<br/>
 
 _**<h3>Updating a nested object</h3>**_
 
@@ -164,7 +164,7 @@ setPerson({
 
 - 만약 더 깊은 중첩 구조를 변경해야한다면, 위와 같은 방식이 아니라 `Immer`을 사용하는 것을 권장한다.
 
-</br>
+<br/>
 
 _**<h4>Write concise update logic with Immer</h4>**_
 
@@ -217,7 +217,7 @@ _**<h2>Updating Arrays in State</h2>**_
 
 - 객체와 마찬가지로, 배열을 업데이트하려면 새 배열을 생성하거나 기존 배열의 복사본을 만들어야 한다.
 
-</br>
+<br/>
 
 _**<h3>Updating arrays without mutation</h3>**_
 
@@ -225,7 +225,7 @@ _**<h3>Updating arrays without mutation</h3>**_
 - `arr[0] = 'bird'` 같은 직접 할당을 피해야 한다.
 - `push()`, `pop()` 같은 변경 메서드를 피해야 한다.
 
-</br>
+<br/>
 
 **배열 조작 방법 비교:**
 
@@ -236,7 +236,7 @@ _**<h3>Updating arrays without mutation</h3>**_
 | 교체 | `splice`, `arr[i] = ...` | `map`                |
 | 정렬 | `reverse`, `sort`        | 배열 복사 후 정렬    |
 
-</br>
+<br/>
 
 _**<h3>Adding to an array</h3>**_
 
@@ -256,7 +256,7 @@ setArtists([...artists, { id: nextId++, name: name }]);
 setArtists([{ id: nextId++, name: name }, ...artists]);
 ```
 
-</br>
+<br/>
 
 _**<h3>Removing from an array</h3>**_
 
@@ -276,7 +276,7 @@ setArtists(artists.filter((a) => a.id !== 1));
 - 조건을 만족하는 항목만 포함하는 새 배열 생성
 - 원본 배열은 변경하지 않음
 
-</br>
+<br/>
 
 _**<h3>Transforming an array</h3>**_
 
@@ -304,7 +304,7 @@ setShapes(nextShapes);
 - 배열의 일부 또는 모든 항목을 변경하고 싶을 때
 - 각 항목을 변환한 새 배열 생성
 
-</br>
+<br/>
 
 _**<h3>Replacing items in an array</h3>**_
 
@@ -325,7 +325,7 @@ setCounters(nextCounters);
 
 - 삼항 연산자를 사용하면 더 간결하게 작성할 수 있다: `counters.map((c, i) => i === 1 ? c + 1 : c)`
 
-</br>
+<br/>
 
 _**<h3>Inserting into an array</h3>**_
 
@@ -361,7 +361,7 @@ arr.slice(0, 2); // [1, 2]
 arr.slice(2); // [3, 4, 5]
 ```
 
-</br>
+<br/>
 
 _**<h3>Making other changes to an array</h3>**_
 
@@ -385,7 +385,7 @@ function handleClick() {
 }
 ```
 
-</br>
+<br/>
 
 _**<h3>Updating objects inside arrays</h3>**_
 
@@ -436,7 +436,7 @@ newArr[0] === arr[0]; // true (같은 객체!)
 const newArr = arr.map((obj) => ({ ...obj })); // 새 객체들로 구성된 새 배열
 ```
 
-</br>
+<br/>
 
 _**<h3>Write concise update logic with Immer</h3>**_
 

@@ -10,7 +10,7 @@ authors: [junye0l]
 > 
 > 개별적인 UI를 직접 조작하는 것 대신 컴포넌트 내부에 여러 state를 선언하고 사용자 입력에 따라 state를 변경한다.
 
-</br>
+<br/>
 
 <h3>명령형 UI</h3>
 
@@ -24,7 +24,7 @@ authors: [junye0l]
 
 -> 간단한 시스템에서는 상관없지만, 조금만 복잡해져도 유지보수 관점에서 매우 안좋은 형태이다.
 
-</br>
+<br/>
 
 <h3>선언형 UI</h3>
 
@@ -34,7 +34,7 @@ authors: [junye0l]
 
 - 단지, 무엇을 보여주고싶은지 선언만 하면 된다.
 
-</br>
+<br/>
 
 <h3>UI를 선언적인 방식을 생각하기</h3>
 
@@ -47,7 +47,7 @@ authors: [junye0l]
 >> 5. state 설정을 위해 이벤트 핸들러 연결하기
 >
 
-</br>
+<br/>
 
 <h4><a href="https://react.dev/learn/reacting-to-input-with-state#step-1-identify-your-components-different-visual-states">1. 컴포넌트의 다양한 시각적 state 확인하기</a></h4>
 
@@ -55,19 +55,19 @@ authors: [junye0l]
 
 - 가장 먼저, 사용자가 볼 수 있는 UI의 모든 state를 시각화 해야한다.
 
-</br>
+<br/>
 
 > state 시각화 예시
 >
->> Empty: 폼은 비활성화된 “제출” 버튼을 가지고 있다. </br>
->> Typing: 폼은 활성화된 “제출” 버튼을 가지고 있다. </br>
->> Submitting: 폼은 완전히 비활성화되고 스피너가 보인다. </br>
->> Success: 폼 대신에 “감사합니다” 메시지가 보인다. </br>
+>> Empty: 폼은 비활성화된 “제출” 버튼을 가지고 있다. <br/>
+>> Typing: 폼은 활성화된 “제출” 버튼을 가지고 있다. <br/>
+>> Submitting: 폼은 완전히 비활성화되고 스피너가 보인다. <br/>
+>> Success: 폼 대신에 “감사합니다” 메시지가 보인다. <br/>
 >> Error: “Typing” state와 동일하지만 오류 메시지가 보인다.
 
 - 많은 시각적 state는 배열을 통해 보여줄 수 있고, 이를 스타일가이드 혹은 스토리북이라 부른다.
 
-</br>
+<br/>
 
 <h4><a href="https://react.dev/learn/reacting-to-input-with-state#step-2-determine-what-triggers-those-state-changes">2. 무엇이 state 변화를 트리거하는지 알아내기</a></h4>
 
@@ -77,11 +77,11 @@ authors: [junye0l]
 
 - 모든 인풋 유형은 UI를 업데이트하기 위해서는 state 변수를 설정해야 한다.
   
-</br>
+<br/>
 
 > 인풋 유형에 따른 state 변경 예시
 
-<img src="example-state.png">
+<img src="/img/example-state.png" />
 
 - _**텍스트 인풋을 변경하면**_ (휴먼) 텍스트 상자가 비어있는지 여부에 따라 state를 Empty에서 Typing 으로 또는 그 반대로 변경해야한다.
 
@@ -91,7 +91,7 @@ authors: [junye0l]
 
 - _**네트워크 요청이 실패하면**_ (컴퓨터) 해당하는 오류 메시지와 함께 Error state를 변경해야한다.
 
-</br>
+<br/>
 
 <h4><a href="https://react.dev/learn/reacting-to-input-with-state#step-3-represent-the-state-in-memory-with-usestate">3. 메모리의 state를 useState로 표현하기</a></h4>
 
@@ -101,7 +101,7 @@ authors: [junye0l]
 
 - 모든 시각적 state를 커버할 수 있는 확실한 것을 먼저 선언한 후, 필요한 state를 선언한다. 
 
-</br>
+<br/>
 
 <h4><a href="https://react.dev/learn/reacting-to-input-with-state#step-4-remove-any-non-essential-state-variables">4. 불필요한 state 변수 제거하기</a></h4>
 
@@ -119,7 +119,7 @@ authors: [junye0l]
 - 좀 더 정확하게 모델링 할 수 있다.
 - 여러 State의 변수를 하나의 객체로 통합하고, 관련된 모든 로직을 합칠 수 있다.
 
-</br>
+<br/>
 
 <h2>State 구조 선택하기</h2>
 
@@ -155,7 +155,7 @@ const [position, setPosition] = useState({ x: 0, y: 0 });
 - State 변수가 객체인 경우에는 다른 필드를 명시적으로 복사하지 않고 하나의 필드만 업데이트할 수 없다.
   - <a href="https://react.dev/learn/updating-objects-in-state#updating-a-nested-object">참고내용</a>
 
-</br>
+<br/>
 
 <h3><a href="https://react.dev/learn/choosing-the-state-structure#avoid-contradictions-in-state">2. state의 모순 피하기</a></h3>
 
@@ -304,7 +304,7 @@ export const initialTravelPlan = {
 
 - 평탄화를 하는것으로, State의 업데이트가 쉬워지고 중첩된 객체의 중복되는 부분을 방지해준다.
 
-</br>
+<br/>
 
 <h2>컴포넌트 간 State 공유하기</h2>
 
