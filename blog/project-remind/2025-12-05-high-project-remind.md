@@ -16,4 +16,5 @@ tags:
     lottie-web,
     jotai,
   ]
+date: 2025-12-05T09:00:00+09:00
 ---

@@ -3,6 +3,7 @@ slug: core-javascript-week9
 title: "프로토타입"
 authors: [junye0l]
 tags: [JavaScript, 프로토타입, 스터디]
+date: 2025-10-01T09:00:00+09:00
 ---
 
 # 프로토타입

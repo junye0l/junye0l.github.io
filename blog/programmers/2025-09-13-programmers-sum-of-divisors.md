@@ -3,6 +3,7 @@ slug: programmers-sum-of-divisors
 title: "Lv.1 - 약수의 합"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 수학]
+date: 2025-09-13T09:00:00+09:00
 ---
 
 프로그래머스 Level 1 문제 "약수의 합"

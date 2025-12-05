@@ -3,6 +3,7 @@ slug: core-javascript-week8
 title: "클로저"
 authors: [junye0l]
 tags: [JavaScript, 클로저, 스터디]
+date: 2025-09-24T09:00:00+09:00
 ---
 
 # 클로저(Closure)

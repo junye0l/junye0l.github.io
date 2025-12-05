@@ -2,6 +2,7 @@
 slug: react-study-week2-1
 title: "리액트 공식문서 스터디 2주차 - 1"
 authors: [junye0l]
+date: 2025-11-11T09:00:00+09:00
 ---
 
 <h2>Passing Props to a Component</h2>

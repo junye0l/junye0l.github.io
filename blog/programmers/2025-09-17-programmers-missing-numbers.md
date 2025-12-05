@@ -3,6 +3,7 @@ slug: programmers-missing-numbers
 title: "Lv.1 - 없는 숫자 더하기"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 배열]
+date: 2025-09-17T09:00:00+09:00
 ---
 
 프로그래머스 Level 1 문제 "없는 숫자 더하기"

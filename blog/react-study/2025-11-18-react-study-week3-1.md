@@ -2,6 +2,7 @@
 slug: react-study-week3-1
 title: "리액트 공식문서 스터디 3주차 - 1"
 authors: [junye0l]
+date: 2025-11-18T09:00:00+09:00
 ---
 
 > **Responding to Events**

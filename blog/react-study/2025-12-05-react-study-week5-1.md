@@ -2,6 +2,7 @@
 slug: react-study-week5-1
 title: "리액트 공식문서 스터디 5주차 - 1"
 authors: [junye0l]
+date: 2025-12-05T09:00:00+09:00
 ---
 
 <h2>State를 사용해 Input 다루기</h2>

@@ -2,6 +2,7 @@
 slug: react-study-week3-2
 title: "리액트 공식문서 스터디 3주차 - 2"
 authors: [junye0l]
+date: 2025-11-21T09:00:00+09:00
 ---
 
 #### 3주차 2번째

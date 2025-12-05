@@ -3,6 +3,7 @@ slug: core-javascript-week10
 title: "클래스"
 authors: [junye0l]
 tags: [JavaScript, 클래스, 스터디]
+date: 2025-10-15T09:00:00+09:00
 ---
 
 # 클래스

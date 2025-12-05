@@ -3,6 +3,7 @@ slug: programmers-sqrt-check
 title: "Lv.1 - 정수 제곱근 판별"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 수학]
+date: 2025-09-15T09:00:00+09:00
 ---
 
 프로그래머스 Level 1 문제 "정수 제곱근 판별"

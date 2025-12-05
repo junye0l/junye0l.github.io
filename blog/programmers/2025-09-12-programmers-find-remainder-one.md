@@ -3,6 +3,7 @@ slug: programmers-find-remainder-one
 title: "Lv.1 - 나머지가 1이 되는 수 찾기"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 수학]
+date: 2025-09-12T09:00:00+09:00
 ---
 
 프로그래머스 Level 1 문제 "나머지가 1이 되는 수 찾기"

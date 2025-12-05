@@ -2,6 +2,7 @@
 slug: react-study-week1-1
 title: "리액트 공식문서 스터디 1주차 - 1"
 authors: [junye0l]
+date: 2025-11-04T09:00:00+09:00
 ---
 
 # week 01

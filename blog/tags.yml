@@ -293,3 +293,19 @@ Jotai:
   label: Jotai
   permalink: /jotai
   description: Jotai 관련 내용
+
+# Codeit 부트캠프 회고 태그
+codeit:
+  label: Codeit
+  permalink: /codeit
+  description: Codeit 부트캠프 관련 내용
+
+bootcamp:
+  label: 부트캠프
+  permalink: /bootcamp
+  description: 부트캠프 전반 내용
+
+회고:
+  label: 회고
+  permalink: /retrospect
+  description: 회고 및 회상 기록

@@ -3,6 +3,7 @@ slug: programmers-calculate-average
 title: "Lv.1 - 평균 구하기"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 배열]
+date: 2025-09-11T09:00:00+09:00
 ---
 
 프로그래머스 Level 1 문제 "평균 구하기"

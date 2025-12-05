@@ -3,6 +3,7 @@ slug: daily-team-mission-09-19
 title: "9월 19일 팀 데일리 미션 정리"
 authors: [junye0l]
 tags: [Next.js, ISR, 동적생성, 정적생성]
+date: 2025-09-19T09:00:00+09:00
 ---
 
 매일 진행하는 팀미팅 간의 데일리 팀미션 퀴즈 정리

@@ -3,6 +3,7 @@ slug: core-javascript-week1
 title: "데이터 타입"
 authors: [junye0l]
 tags: [JavaScript, 데이터타입, 변수, 메모리, 스터디]
+date: 2025-08-06T09:00:00+09:00
 ---
 
 코어 자바스크립트 스터디 1주차 내용을 정리했습니다. 이번 주제는 **데이터 타입**입니다.

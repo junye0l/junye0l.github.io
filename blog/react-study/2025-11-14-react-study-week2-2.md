@@ -2,6 +2,7 @@
 slug: react-study-week2-2
 title: "리액트 공식문서 스터디 2주차 - 2"
 authors: [junye0l]
+date: 2025-11-14T09:00:00+09:00
 ---
 
 <a href="https://react.dev/learn/rendering-lists"><h2>Rendering Lists</h2></a>
