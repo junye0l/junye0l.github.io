@@ -1,97 +1,249 @@
 :root {
-  --ifm-color-primary: #06b6d4;
-  --ifm-color-primary-dark: #0891b2;
-  --ifm-color-primary-darker: #0e7490;
-  --ifm-color-primary-darkest: #155e75;
-  --ifm-color-primary-light: #22d3ee;
-  --ifm-color-primary-lighter: #67e8f9;
-  --ifm-color-primary-lightest: #a5f3fc;
+  /* Minimal Color Palette - Monochrome */
+  --ifm-color-primary: #000000;
+  --ifm-color-primary-dark: #1a1a1a;
+  --ifm-color-primary-darker: #2d2d2d;
+  --ifm-color-primary-darkest: #404040;
+  --ifm-color-primary-light: #333333;
+  --ifm-color-primary-lighter: #666666;
+  --ifm-color-primary-lightest: #999999;
+
+  /* Clean Background */
   --ifm-background-color: #ffffff;
-  --ifm-background-surface-color: #f8fafc;
-  --ifm-font-color-base: #1e293b;
-  --ifm-font-color-secondary: #64748b;
+  --ifm-background-surface-color: #fafafa;
+
+  /* Minimal Text Colors */
+  --ifm-font-color-base: #1a1a1a;
+  --ifm-font-color-secondary: #6b6b6b;
+  --ifm-font-color-tertiary: #999999;
+
+  /* Code Styling */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(6, 182, 212, 0.1);
-  --ifm-box-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --ifm-box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --ifm-color-success: #10b981;
-  --ifm-color-warning: #f59e0b;
-  --ifm-color-danger: #ef4444;
-  --ifm-color-info: #3b82f6;
-  --ifm-link-color: var(--ifm-color-primary);
-  --ifm-link-hover-color: var(--ifm-color-primary-dark);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+
+  /* Minimal Shadows - Very Subtle */
+  --ifm-box-shadow-md: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --ifm-box-shadow-lg: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  /* Accent Colors - Muted */
+  --ifm-color-success: #2d2d2d;
+  --ifm-color-warning: #404040;
+  --ifm-color-danger: #000000;
+  --ifm-color-info: #1a1a1a;
+
+  /* Links - Simple Underline */
+  --ifm-link-color: #000000;
+  --ifm-link-hover-color: #666666;
+  --ifm-link-decoration: none;
+  --ifm-link-hover-decoration: underline;
 }
 
 [data-theme="dark"] {
-  --ifm-color-primary: #22d3ee;
-  --ifm-color-primary-dark: #06b6d4;
-  --ifm-color-primary-darker: #0891b2;
-  --ifm-color-primary-darkest: #0e7490;
-  --ifm-color-primary-light: #67e8f9;
-  --ifm-color-primary-lighter: #a5f3fc;
-  --ifm-color-primary-lightest: #cffafe;
-  --ifm-background-color: #0f172a;
-  --ifm-background-surface-color: #1e293b;
-  --ifm-font-color-base: #f1f5f9;
-  --ifm-font-color-secondary: #cbd5e1;
-  --docusaurus-highlighted-code-line-bg: rgba(34, 211, 238, 0.1);
-  --ifm-color-emphasis-200: #334155;
-  --ifm-color-emphasis-300: #475569;
-  --ifm-color-success: #34d399;
-  --ifm-color-warning: #fbbf24;
-  --ifm-color-danger: #f87171;
-  --ifm-color-info: #60a5fa;
-  --ifm-link-color: var(--ifm-color-primary-light);
-  --ifm-link-hover-color: var(--ifm-color-primary);
+  /* Minimal Dark Mode - Inverted Monochrome */
+  --ifm-color-primary: #ffffff;
+  --ifm-color-primary-dark: #e6e6e6;
+  --ifm-color-primary-darker: #cccccc;
+  --ifm-color-primary-darkest: #b3b3b3;
+  --ifm-color-primary-light: #f5f5f5;
+  --ifm-color-primary-lighter: #999999;
+  --ifm-color-primary-lightest: #666666;
+
+  /* Dark Background - True Black */
+  --ifm-background-color: #0a0a0a;
+  --ifm-background-surface-color: #1a1a1a;
+
+  /* Dark Mode Text */
+  --ifm-font-color-base: #e6e6e6;
+  --ifm-font-color-secondary: #999999;
+  --ifm-font-color-tertiary: #666666;
+
+  /* Code in Dark Mode */
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
+
+  /* Dark Mode Emphasis */
+  --ifm-color-emphasis-200: #2d2d2d;
+  --ifm-color-emphasis-300: #404040;
+
+  /* Accent Colors - Muted Dark */
+  --ifm-color-success: #e6e6e6;
+  --ifm-color-warning: #cccccc;
+  --ifm-color-danger: #ffffff;
+  --ifm-color-info: #b3b3b3;
+
+  /* Links in Dark Mode */
+  --ifm-link-color: #ffffff;
+  --ifm-link-hover-color: #999999;
 }
 
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
 :root {
+  /* Minimal Typography */
   --ifm-font-family-base: "Pretendard", -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Noto Sans KR", sans-serif;
   --ifm-font-family-monospace: "JetBrains Mono", "Fira Code", "SF Mono", Monaco,
     Consolas, monospace;
-  --ifm-font-size-base: 16px;
-  --ifm-line-height-base: 1.7;
+
+  /* Refined Font Sizes - Less Visual Hierarchy */
+  --ifm-font-size-base: 15px;
+  --ifm-line-height-base: 1.8;
   --ifm-font-weight-light: 300;
   --ifm-font-weight-normal: 400;
-  --ifm-font-weight-semibold: 600;
-  --ifm-font-weight-bold: 700;
-  --ifm-h1-font-size: 2.5rem;
-  --ifm-h2-font-size: 2rem;
-  --ifm-h3-font-size: 1.5rem;
-  --ifm-h4-font-size: 1.25rem;
-  --ifm-h5-font-size: 1.125rem;
-  --ifm-h6-font-size: 1rem;
+  --ifm-font-weight-semibold: 500;
+  --ifm-font-weight-bold: 600;
+
+  /* Minimal Heading Sizes - Closer to Body Text */
+  --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-h4-font-size: 1.125rem;
+  --ifm-h5-font-size: 1rem;
+  --ifm-h6-font-size: 0.95rem;
+
+  /* Spacing - More Breathing Room */
+  --ifm-spacing-horizontal: 2rem;
+  --ifm-spacing-vertical: 2rem;
 }
 
+/* Minimal Heading Styles */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: var(--ifm-font-weight-bold);
-  line-height: 1.4;
-  letter-spacing: -0.02em;
+  font-weight: var(--ifm-font-weight-semibold);
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .markdown h1:first-child {
-  font-size: 2.8rem;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.5rem;
+}
+
+/* Clean Paragraph Spacing */
+p {
+  line-height: 1.8;
   margin-bottom: 1.5rem;
 }
 
-p {
-  line-height: 1.8;
-  margin-bottom: 1.2rem;
-}
-
+/* Minimal Code Styling */
 code {
   font-family: var(--ifm-font-family-monospace);
   font-size: 0.9em;
-  border-radius: 4px;
-  padding: 0.1rem 0.3rem;
+  border-radius: 2px;
+  padding: 0.15rem 0.4rem;
+  background-color: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Clean List Styling */
+ul,
+ol {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+/* Minimal Blockquote */
+blockquote {
+  border-left: 2px solid var(--ifm-color-primary);
+  padding-left: 1rem;
+  margin-left: 0;
+  font-style: normal;
+  color: var(--ifm-font-color-secondary);
+}
+
+/* Clean Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+table th,
+table td {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+table th {
+  background-color: var(--ifm-background-surface-color);
+  font-weight: var(--ifm-font-weight-semibold);
+}
+
+/* Minimal Button Styles */
+.button {
+  border-radius: 2px;
+  font-weight: var(--ifm-font-weight-normal);
+  transition: all 0.2s ease;
+}
+
+/* Remove Excessive Decorations */
+.navbar {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Hide Navbar Logo */
+.navbar__logo {
+  display: none;
+}
+
+/* Navbar Title - Minimal Style */
+.navbar__title {
+  font-weight: var(--ifm-font-weight-semibold);
+  font-size: 1rem;
+}
+
+/* Navbar Width Constraint - Centered */
+.navbar .navbar__inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Clean Card Styles */
+.card {
+  box-shadow: none;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 2px;
+}
+
+/* Minimal Pagination */
+.pagination-nav__link {
+  border: none;
+  border-radius: 2px;
+}
+
+/* Clean Sidebar */
+.menu__link {
+  border-radius: 2px;
+}
+
+/* Minimal TOC */
+.table-of-contents {
+  font-size: 0.9rem;
+}
+
+.table-of-contents__link {
+  color: var(--ifm-font-color-secondary);
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-font-color-base);
+  font-weight: var(--ifm-font-weight-semibold);
+  border-left: 2px solid var(--ifm-color-primary);
+  padding-left: 0.5rem;
+  margin-left: -0.5rem;
 }

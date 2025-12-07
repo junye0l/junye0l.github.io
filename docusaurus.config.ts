@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Junyeol Blog',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/main.ico',
+  favicon: 'img/main-icon.svg',
 
   url: 'https://junyeol.blog',
   baseUrl: '/',
@@ -60,17 +60,14 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     docs: {
       sidebar: {
-        hideable: true,
+        hideable: false,
         autoCollapseCategories: true,
       },
     },
 
     navbar: {
       title: 'Junyeol',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/main.ico',
-      },
+      hideOnScroll: false,
       items: [
 
         {
@@ -79,19 +76,19 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        
+
         {
-          to: '/blog', 
-          label: 'Blog', 
+          to: '/blog',
+          label: 'Blog',
           position: 'left',
         },
 
         {
-          to: '/blog/tags', 
-          label: 'Tags', 
+          to: '/blog/tags',
+          label: 'Tags',
           position: 'left',
         },
-        
+
 
         {
           href: 'https://github.com/junye0l',
