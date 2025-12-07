@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/main.ico',
 
-  url: 'https://junyeol.github.io',
+  url: 'https://junyeol.blog',
   baseUrl: '/',
 
   organizationName: 'junye0l',
