@@ -209,6 +209,32 @@ table th {
   padding-right: 2rem;
 }
 
+/* Dark Mode Toggle - Improved Quality */
+.navbar__toggle,
+button[class*="toggle"],
+button[class*="colorModeToggle"] {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button[class*="colorModeToggle"] svg,
+button[class*="toggle"] svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  shape-rendering: geometricPrecision;
+}
+
+/* Clean Dark Mode Toggle Button */
+button[class*="colorModeToggle"] {
+  border-radius: 2px;
+  padding: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+button[class*="colorModeToggle"]:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
 .footer {
   border-top: 1px solid var(--ifm-color-emphasis-200);
 }
