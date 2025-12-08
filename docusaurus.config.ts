@@ -120,13 +120,6 @@ const config: Config = {
           label: 'Tags',
           position: 'left',
         },
-
-
-        {
-          href: 'https://github.com/junye0l',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
 
