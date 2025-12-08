@@ -4,8 +4,32 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Junyeol Blog',
-  tagline: 'Dinosaurs are cool',
+  tagline: '개발과 공부를 기록하는 블로그',
   favicon: 'img/main-icon.svg',
+
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: '개발, 코딩테스트, JavaScript, React, 블로그',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'author',
+        content: 'Junyeol',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: '개발 지식과 코딩테스트 문제 풀이를 기록하는 개발 블로그',
+      },
+    },
+  ],
 
   url: 'https://junyeol.blog',
   baseUrl: '/',

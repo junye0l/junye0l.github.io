@@ -1,0 +1,9 @@
+{
+  "label": "코딩테스트 이론 공부",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "type": "doc",
+    "id": "coding-test-book/index"
+  }
+}
