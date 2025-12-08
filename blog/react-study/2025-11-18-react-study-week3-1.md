@@ -3,6 +3,7 @@ slug: react-study-week3-1
 title: "리액트 공식문서 스터디 3주차 - 1"
 authors: [junye0l]
 date: 2025-11-18T09:00:00+09:00
+description: "React 이벤트 핸들러의 작성법과 이벤트 처리, 이벤트 전파와 버블링 다루기"
 ---
 
 > **Responding to Events**

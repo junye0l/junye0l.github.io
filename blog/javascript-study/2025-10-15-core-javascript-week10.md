@@ -4,6 +4,7 @@ title: "클래스"
 authors: [junye0l]
 tags: [JavaScript, 클래스, 스터디]
 date: 2025-10-15T09:00:00+09:00
+description: "ES6 클래스 문법의 이해와 생성자, 메서드, 상속, 그리고 프로토타입과의 관계"
 ---
 
 # 클래스

@@ -4,6 +4,7 @@ title: "this"
 authors: [junye0l]
 tags: [JavaScript, this, 호출방식, call, apply, bind, 화살표함수, 스터디]
 date: 2025-09-03T09:00:00+09:00
+description: "JavaScript의 this 바인딩 규칙과 호출 방식에 따른 동작, call/apply/bind 메서드 활용법"
 ---
 
 코어 자바스크립트 스터디 5주차 내용을 정리했습니다. 이번 주제는 **this**에 대한 모든 것입니다.

@@ -4,6 +4,7 @@ title: "콜백함수"
 authors: [junye0l]
 tags: [JavaScript, 콜백함수, 비동기, Promise, async/await, 스터디]
 date: 2025-09-17T09:00:00+09:00
+description: "콜백 함수의 개념과 비동기 처리, Promise와 async/await를 활용한 콜백 헬 해결법"
 ---
 
 코어 자바스크립트 스터디 7주차 내용을 정리했습니다. 이번 주제는 **콜백 함수**입니다.

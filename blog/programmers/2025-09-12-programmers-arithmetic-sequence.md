@@ -4,6 +4,7 @@ title: "Lv.1 - x만큼 간격이 있는 n개의 숫자"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 배열]
 date: 2025-09-12T09:00:00+09:00
+description: "프로그래머스 Lv.1 - 등차수열 배열을 생성하는 문제 풀이"
 ---
 
 프로그래머스 Level 1 문제 "x만큼 간격이 있는 n개의 숫자"

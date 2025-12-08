@@ -4,7 +4,7 @@ title: "끝이 아닌 시작으로"
 authors: [junye0l]
 tags: [codeit, bootcamp, 회고]
 date: 2025-12-05T09:00:00+09:00
-description: ""
+description: "코드잇 부트캠프 6개월간의 여정과 프론트엔드 개발자로 성장한 과정, 그리고 앞으로의 다짐을 담은 회고"
 ---
 
 <h2>시작에 앞서..</h2>

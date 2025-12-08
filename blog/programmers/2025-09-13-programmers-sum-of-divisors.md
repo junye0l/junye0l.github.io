@@ -4,6 +4,7 @@ title: "Lv.1 - 약수의 합"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 수학]
 date: 2025-09-13T09:00:00+09:00
+description: "프로그래머스 Lv.1 - 주어진 정수의 약수를 구하고 합계를 계산하는 문제 풀이"
 ---
 
 프로그래머스 Level 1 문제 "약수의 합"

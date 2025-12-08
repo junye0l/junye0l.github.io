@@ -3,6 +3,7 @@ slug: react-study-week1-2
 title: "리액트 공식문서 스터디 1주차 - 2"
 authors: [junye0l]
 date: 2025-11-07T09:00:00+09:00
+description: "JSX에서 중괄호를 사용한 JavaScript 표현식 삽입과 동적 UI 구현 방법"
 ---
 
 > **Using curly braces: A window into the JavaScript world**

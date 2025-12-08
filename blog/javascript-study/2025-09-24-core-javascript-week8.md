@@ -4,6 +4,7 @@ title: "클로저"
 authors: [junye0l]
 tags: [JavaScript, 클로저, 스터디]
 date: 2025-09-24T09:00:00+09:00
+description: "클로저의 정의와 동작 원리, 실전 활용 사례와 메모리 관리 주의사항"
 ---
 
 # 클로저(Closure)

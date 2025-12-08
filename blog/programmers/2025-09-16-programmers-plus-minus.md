@@ -4,6 +4,7 @@ title: "Lv.1 - 음양 더하기"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 배열]
 date: 2025-09-16T09:00:00+09:00
+description: "프로그래머스 Lv.1 - 절댓값 배열과 부호 배열을 활용한 덧셈 문제 풀이"
 ---
 
 프로그래머스 Level 1 문제 "음양 더하기"

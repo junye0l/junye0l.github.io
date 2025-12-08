@@ -67,11 +67,18 @@ const config: Config = {
           blogDescription: '개발과 공부를 기록하는 블로그',
           postsPerPage: 5,
           blogSidebarTitle: 'Recent posts',
-          blogSidebarCount: 10,
+          blogSidebarCount: 100,
           editUrl: 'https://github.com/junye0l/my-blog/tree/main/',
           onInlineTags: 'ignore',
           onInlineAuthors: 'ignore',
           onUntruncatedBlogPosts: 'ignore',
+        },
+
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
 
         theme: {

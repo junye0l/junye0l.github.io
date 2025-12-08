@@ -3,6 +3,7 @@ slug: react-study-week4-1
 title: "리액트 공식문서 스터디 4주차 - 1"
 authors: [junye0l]
 date: 2025-11-25T09:00:00+09:00
+description: "State에서 객체를 불변하게 업데이트하는 방법과 스프레드 연산자 활용법"
 ---
 
 _**4주차 - 1**_

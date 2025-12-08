@@ -4,6 +4,7 @@ title: "call, apply, bind, 화살표 함수"
 authors: [junye0l]
 tags: [JavaScript, this, call, apply, bind, 화살표함수, 유사배열객체, 스터디]
 date: 2025-09-10T09:00:00+09:00
+description: "call, apply, bind 메서드의 사용법과 차이점, 화살표 함수의 this 바인딩 특성"
 ---
 
 코어 자바스크립트 스터디 6주차 내용을 정리했습니다. 이번 주제는 **call, apply, bind 메서드와 화살표 함수**의 this 바인딩입니다.

@@ -3,6 +3,7 @@ slug: react-study-week6-1
 title: "리액트 공식문서 스터디 6주차 - 1"
 authors: [junye0l]
 date: 2025-12-08T09:00:00+09:00
+description: "React에서 State를 컨트롤하는 방법"
 ---
 
 <h2>6주차 첫 번째</h2> 

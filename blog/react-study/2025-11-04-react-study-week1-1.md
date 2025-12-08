@@ -3,6 +3,7 @@ slug: react-study-week1-1
 title: "리액트 공식문서 스터디 1주차 - 1"
 authors: [junye0l]
 date: 2025-11-04T09:00:00+09:00
+description: "React 컴포넌트의 기초, import/export, JSX 문법과 규칙 정리"
 ---
 
 # week 01

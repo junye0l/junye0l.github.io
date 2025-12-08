@@ -3,6 +3,7 @@ slug: react-study-week5-1
 title: "리액트 공식문서 스터디 5주차 - 1"
 authors: [junye0l]
 date: 2025-12-05T09:00:00+09:00
+description: "State를 사용한 폼 입력 제어와 선언적 UI 구현 패턴"
 ---
 
 <h2>State를 사용해 Input 다루기</h2>
