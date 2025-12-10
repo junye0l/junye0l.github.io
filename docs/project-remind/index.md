@@ -5,11 +5,10 @@ title: 프로젝트 회고
 
 # 프로젝트 회고
 
-## 미션 기록
 
-### [중급 프로젝트 회고](/blog/middle-project-remind)
+### [WHYNE](/blog/middle-project-remind)
 
-### [심화 프로젝트 회고](/blog/high-project-remind)
+### [Coworkers](/blog/high-project-remind)
 
 ---
 
