@@ -60,7 +60,7 @@ description: "reducer와 context를 같이 사용하는 방법"
 
   - 이런 작은 props만으로는 할 수 없기에 자식이 tree 위쪽에서 데이터를 **가져올 수 있도록** 도와주는 **Context**가 등장한 것이다.
 
-</br>
+<br/>
 
 Context를 작성하는 방법
 
@@ -106,7 +106,7 @@ Context를 작성하는 방법
 - Context는 가까운 부모가 제공한 값을 읽을 수 있는데,
 그 값을 다시 제공하면 트리의 깊이에 따라 값이 자연스럽게 변화한다.
 
-</br>
+<br/>
 
 Context를 사용하기전 고려해야 할 것
 
@@ -114,7 +114,7 @@ Context를 사용하기전 고려해야 할 것
 2. children 패턴을 사용하기
 3. 그래도 안된다면 context를 사용하기
 
-</br>
+<br/>
 
 Context를 언제 사용하면 좋을까?
 
@@ -126,7 +126,7 @@ Context를 언제 사용하면 좋을까?
 
 - **Managin state** : 여러 컴포넌트가 같은 상태를 읽고 변경해야 할 때, reducer + context로 함께 사용할 수 있다.
 
-</br>
+<br/>
 
 # Scaling Up with Reducer and Context
 
@@ -138,7 +138,7 @@ Context를 언제 사용하면 좋을까?
 
 - 이를 해결하기 위해 상태와 dispatch를 context에 넣으면, 하위 tree 모든 컴포넌트가 props 없이 상태를 읽고 dispatch를 호출할 수 있다.
 
-</br>
+<br/>
 
 1. Create the context
 
@@ -157,7 +157,7 @@ export const TasksContext = createContext(null);
 export const TasksDispatchContext = createContext(null);
 ```
 
-</br>
+<br/>
 
 2. Put state and dispatch into context
 
@@ -205,7 +205,7 @@ function Task({ task }) {
 }
 ```
 
-</br>
+<br/>
 
 Moving all wiring into a single file
 
