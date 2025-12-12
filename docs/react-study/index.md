@@ -54,4 +54,10 @@ title: 리액트 공식문서 스터디
 
 - **Preserving and Resetting State**
 - **Extracting State Logic into a Reducer**
+
+### [6주차 - 2](/blog/react-study-week6-2)
+
+- **Passing Data Deeply with Context**
+- **Scaling Up with Reducer and Context**
+
 ---
