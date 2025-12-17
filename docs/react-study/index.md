@@ -5,8 +5,6 @@ title: 리액트 공식문서 스터디
 
 # 리액트 공식문서 스터디 기록
 
-### 리액트 공식문서를 읽고 각자의 생각과 내용을 정리합니다.
-
 ### [1주차 - 1](/blog/react-study-week1-1)
 
 - **Your First Component**
@@ -59,5 +57,11 @@ title: 리액트 공식문서 스터디
 
 - **Passing Data Deeply with Context**
 - **Scaling Up with Reducer and Context**
+
+### [7주차 - 1](/blog/react-study-week7-1)
+
+- **Referencing Values with Refs**
+- **Manipulating the DOM with Refs**
+- **Synchronizing with Effects**
 
 ---
