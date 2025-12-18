@@ -1,6 +1,6 @@
 ---
 slug: programmers-divisible-array
-title: "Lv.1 - 나누어 떨어지는 숫자 배열"
+title: "[프로그래머스] 나누어 떨어지는 숫자 배열"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 배열]
 date: 2025-09-17T09:00:00+09:00

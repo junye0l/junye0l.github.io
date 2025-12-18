@@ -1,6 +1,6 @@
 ---
 slug: programmers-arithmetic-sequence
-title: "Lv.1 - x만큼 간격이 있는 n개의 숫자"
+title: "[프로그래머스] x만큼 간격이 있는 n개의 숫자"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 배열]
 date: 2025-09-12T09:00:00+09:00

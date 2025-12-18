@@ -1,6 +1,6 @@
 ---
 slug: programmers-min-number
-title: "Lv.1 - 제일 작은 수 제거하기"
+title: "[프로그래머스] 제일 작은 수 제거하기"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 배열]
 date: 2025-09-20T09:00:00+09:00

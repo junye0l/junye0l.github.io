@@ -1,6 +1,6 @@
 ---
 slug: programmers-harshad-number
-title: "Lv.1 - 하샤드 수"
+title: "[프로그래머스] 하샤드 수"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 수학]
 date: 2025-09-16T09:00:00+09:00

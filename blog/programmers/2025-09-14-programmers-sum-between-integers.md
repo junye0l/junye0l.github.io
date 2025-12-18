@@ -1,6 +1,6 @@
 ---
 slug: programmers-sum-between-integers
-title: "Lv.1 - 두 정수 사이의 합"
+title: "[프로그래머스] 두 정수 사이의 합"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 수학]
 date: 2025-09-14T09:00:00+09:00

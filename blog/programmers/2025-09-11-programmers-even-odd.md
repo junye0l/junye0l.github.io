@@ -1,6 +1,6 @@
 ---
 slug: programmers-even-odd
-title: "Lv.1 - 짝수와 홀수"
+title: "[프로그래머스] 짝수와 홀수"
 authors: [junye0l]
 tags: [프로그래머스, 알고리즘, 코딩테스트, JavaScript, 조건문]
 date: 2025-09-11T09:00:00+09:00
