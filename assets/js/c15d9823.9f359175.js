@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8146],{9328:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":5,"totalPages":10,"totalCount":49,"nextPage":"/blog/page/2","blogDescription":"\uac1c\ubc1c\uacfc \uacf5\ubd80\ub97c \uae30\ub85d\ud558\ub294 \ube14\ub85c\uadf8","blogTitle":"Junyeol"}}')}}]);
