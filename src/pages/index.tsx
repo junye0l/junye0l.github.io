@@ -85,7 +85,7 @@ export default function Home(): ReactNode {
                 <p>알고리즘 학습 기록</p>
               </Link>
 
-              <Link to="/project-remind" className="minimal-card">
+              <Link to="/projects" className="minimal-card">
                 <h3>Projects</h3>
                 <p>프로젝트 및 팀원들과의 협업 기록</p>
               </Link>

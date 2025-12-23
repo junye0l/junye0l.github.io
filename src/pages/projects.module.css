@@ -1,0 +1,198 @@
+.page {
+  position: relative;
+  overflow: hidden;
+}
+
+.gridSection {
+  padding: 2.5rem 0 5rem;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.sectionTitle {
+  margin: 0;
+}
+
+.sectionSubtitle {
+  color: var(--ifm-font-color-secondary);
+  max-width: 34rem;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  border-radius: 18px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-surface-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: border-color 0.35s ease;
+  will-change: transform;
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-emphasis-400, var(--ifm-color-emphasis-300));
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--ifm-color-emphasis-300);
+  outline-offset: 2px;
+}
+
+
+.cardMedia {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  overflow: hidden;
+  z-index: 1;
+  background: linear-gradient(135deg, var(--accent), #ffffff);
+}
+
+:global([data-theme='dark']) .cardMedia {
+  background: linear-gradient(135deg, var(--accent), #1a1a1a);
+}
+
+.cardMedia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: saturate(0.9);
+}
+
+.cardMediaFallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 0.08em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+:global([data-theme='dark']) .cardMediaFallback {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.cardBody {
+  padding: 1.6rem 1.6rem 1.2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.cardMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ifm-font-color-secondary);
+}
+
+.typeBadge {
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.role {
+  font-weight: 600;
+  color: var(--ifm-font-color-base);
+}
+
+.period {
+  opacity: 0.7;
+}
+
+.cardTitle {
+  margin: 0.9rem 0 0.6rem;
+  font-size: 1.25rem;
+}
+
+
+.cardDescription {
+  margin: 0 0 1rem;
+  color: var(--ifm-font-color-secondary);
+}
+
+.tagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  color: var(--ifm-font-color-secondary);
+}
+
+.cardFooter {
+  padding: 0.9rem 1.6rem 1.6rem;
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.primaryAction,
+.secondaryAction {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.primaryAction {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-background-color);
+  font-weight: 600;
+}
+
+.secondaryAction {
+  color: var(--ifm-font-color-base);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    animation: none;
+    transform: none;
+    opacity: 1;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
+  .cardMedia img {
+    transition: none;
+  }
+}

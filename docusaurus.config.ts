@@ -116,6 +116,12 @@ const config: Config = {
         },
 
         {
+          to: '/projects',
+          label: 'Projects',
+          position: 'left',
+        },
+
+        {
           to: '/blog/tags',
           label: 'Tags',
           position: 'left',
